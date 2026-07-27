@@ -120,6 +120,21 @@
     ]
   },
   {
+    "id": "ss31-50mg",
+    "name": "SS-31",
+    "amount": "50 mg",
+    "priceCad": 200,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/ss31-50mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
     "id": "bpc157-10mg",
     "name": "BPC 157",
     "amount": "10 mg",
@@ -214,7 +229,7 @@
     "id": "tesamorelin-20mg",
     "name": "Tesamorelin",
     "amount": "20 mg",
-    "priceCad": 200,
+    "priceCad": 180,
     "format": "Research material",
     "status": "Current batch",
     "coaUrl": "coa/tesamorelin-20mg.html",
