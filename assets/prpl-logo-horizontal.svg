@@ -1,0 +1,21 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pure Research Peptide Lab horizontal logo</title>
+  <desc id="desc">Pure Research Peptide Lab wordmark with molecular research mark.</desc>
+  <rect width="1200" height="320" rx="42" fill="#071824"/>
+  <g transform="translate(52 46)">
+    <rect width="228" height="228" rx="56" fill="#0B2433"/>
+    <circle cx="114" cy="114" r="82" fill="#102F43" stroke="#41D6C3" stroke-width="7"/>
+    <path d="M64 146C88 102 113 82 149 62" stroke="#41D6C3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M83 62C106 89 137 118 178 150" stroke="#8BE7DD" stroke-width="6" stroke-linecap="round" stroke-opacity=".85"/>
+    <circle cx="64" cy="146" r="14" fill="#F7FBFF" stroke="#41D6C3" stroke-width="5"/>
+    <circle cx="83" cy="62" r="12" fill="#41D6C3"/>
+    <circle cx="149" cy="62" r="15" fill="#F7FBFF" stroke="#41D6C3" stroke-width="5"/>
+    <circle cx="178" cy="150" r="12" fill="#41D6C3"/>
+    <text x="114" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="-2" fill="#F7FBFF">PR</text>
+    <text x="114" y="166" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#8BE7DD">LAB</text>
+  </g>
+  <text x="332" y="132" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.6" fill="#F7FBFF">Pure Research</text>
+  <text x="332" y="199" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.6" fill="#F7FBFF">Peptide Lab</text>
+  <path d="M334 229H884" stroke="#41D6C3" stroke-width="6" stroke-linecap="round"/>
+  <text x="334" y="267" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" letter-spacing="4" fill="#8BE7DD">RESEARCH USE ONLY · 21+</text>
+</svg>

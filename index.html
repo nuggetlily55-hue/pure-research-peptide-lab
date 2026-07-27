@@ -1,0 +1,1199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pure Research Peptide Lab</title>
+    <link rel="icon" href="assets/prpl-logo-mark.svg" type="image/svg+xml" />
+    <meta
+      name="description"
+      content="Pure Research Peptide Lab is a 21+ research-only peptide supplier concept. Materials are not for human use."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="age-gate" id="ageGate">
+      <div class="gate-card" role="dialog" aria-modal="true" aria-labelledby="ageGateTitle">
+        <img src="assets/prpl-logo-horizontal.svg" alt="Pure Research Peptide Lab" />
+        <h1 id="ageGateTitle">Research-use only. 21+ to enter.</h1>
+        <p>
+          Pure Research Peptide Lab supplies research-use-only materials. Products are not for human
+          consumption or human use.
+        </p>
+        <p class="gate-question">Are you over 21 years of age?</p>
+        <div class="gate-actions">
+          <button id="confirmAge" type="button">Yes, I Am 21+</button>
+          <a id="leaveSite" href="https://www.google.com">No, I Am Under 21</a>
+        </div>
+        <label class="remember-check">
+          <input id="rememberAge" type="checkbox" />
+          Remember me
+        </label>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Pure Research Peptide Lab home">
+        <img src="assets/prpl-logo-horizontal.svg" alt="Pure Research Peptide Lab" />
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#shop">Shop</a>
+        <a href="#coa">COAs</a>
+        <a href="#details">Product Details</a>
+        <a href="#compliance">Compliance</a>
+        <a href="#reviews">Reviews</a>
+        <a href="terms.html">Terms</a>
+        <a href="#inquiry">Inquiry</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero store-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">21+ · Research use only · Not for human use</p>
+          <h1>Research-only peptide materials with documentation up front.</h1>
+          <p>
+            Catalog for qualified research customers. Product names, quantities, and pricing are
+            catalog information only. No dosing, protocols, human-use guidance, or wellness claims are provided.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#shop">Shop Materials</a>
+            <a class="button secondary" href="#coa">View COA Status</a>
+          </div>
+        </div>
+        <div class="hero-product" aria-hidden="true">
+          <div class="hero-vial product-photo large-vial">
+            <img src="assets/products/retatrutide-10mg.png" alt="Pure Research Peptide Lab labeled research vial" />
+          </div>
+          <div class="hero-badge">
+            <strong>21+</strong>
+            <span>Research-only catalog</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice-band">
+        <strong>Important:</strong>
+        Materials referenced on this site are not for human consumption or human use. They are not intended to
+        diagnose, treat, cure, prevent, or affect any condition.
+      </section>
+
+      <section class="section shop-section" id="shop">
+        <div class="section-head">
+          <p class="eyebrow">Catalog</p>
+          <h2>21 research-only materials.</h2>
+          <p>
+            Each product includes a COA path, product breakdown, quantity selector, and inquiry-cart action.
+            COA buttons are ready for final lab reports once the batch documents are uploaded.
+          </p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-card-product="Retatrutide 10 mg" data-card-price="95">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Retatrutide 10 mg research vial product image">
+              <img src="assets/products/retatrutide-10mg.png" alt="Retatrutide 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/retatrutide-10mg.pdf" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Retatrutide - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$95 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Retatrutide 10 mg" data-price="95">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-retatrutide">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Retatrutide 20 mg" data-card-price="120">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Retatrutide 20 mg research vial product image">
+              <img src="assets/products/retatrutide-20mg.svg" alt="Retatrutide 20 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/retatrutide-20mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Retatrutide - Laboratory Research Reagent (20 mg)</h3>
+            <p class="price">$120 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Retatrutide 20 mg" data-price="120">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-retatrutide-20mg">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="5-Amino-1MQ 10 mg" data-card-price="60">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="5-Amino-1MQ 10 mg research vial product image">
+              <img src="assets/products/5-amino-1mq-10mg.png" alt="5-Amino-1MQ 10 mg Pure Research Peptide Lab vial with orange powder" />
+            </div>
+            <a class="fresh-coa" href="coa/5-amino-1mq-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>5-Amino-1MQ - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$60 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="5-Amino-1MQ 10 mg" data-price="60">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-5-amino-1mq">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="5-Amino-1MQ 50 mg" data-card-price="175">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="5-Amino-1MQ 50 mg research vial product image">
+              <img src="assets/products/5-amino-1mq-50mg.svg" alt="5-Amino-1MQ 50 mg Pure Research Peptide Lab vial with orange powder" />
+            </div>
+            <a class="fresh-coa" href="coa/5-amino-1mq-50mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>5-Amino-1MQ - Laboratory Research Reagent (50 mg)</h3>
+            <p class="price">$175 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="5-Amino-1MQ 50 mg" data-price="175">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-5-amino-1mq-50mg">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Mots-C 10 mg" data-card-price="60">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Mots-C 10 mg research vial product image">
+              <img src="assets/products/mots-c-10mg.png" alt="Mots-C 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/mots-c-10mg.pdf" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Mots-C - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$60 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Mots-C 10 mg" data-price="60">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-mots-c">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Mots-C 30 mg" data-card-price="175">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Mots-C 30 mg research vial product image">
+              <img src="assets/products/mots-c-30mg.svg" alt="Mots-C 30 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/mots-c-30mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Mots-C - Laboratory Research Reagent (30 mg)</h3>
+            <p class="price">$175 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Mots-C 30 mg" data-price="175">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-mots-c-30mg">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Mots-C 40 mg" data-card-price="200">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Mots-C 40 mg research vial product image">
+              <img src="assets/products/mots-c-40mg.svg" alt="Mots-C 40 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/mots-c-40mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Mots-C - Laboratory Research Reagent (40 mg)</h3>
+            <p class="price">$200 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Mots-C 40 mg" data-price="200">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-mots-c-40mg">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="SS-31 10 mg" data-card-price="70">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="SS-31 10 mg research vial product image">
+              <img src="assets/products/ss31-10mg.png" alt="SS-31 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/ss31-10mg.pdf" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>SS-31 - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$70 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="SS-31 10 mg" data-price="70">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-ss31">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="BPC 157 10 mg" data-card-price="65">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="BPC 157 10 mg research vial product image">
+              <img src="assets/products/bpc157-10mg.png" alt="BPC 157 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/bpc157-10mg.pdf" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>BPC 157 - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$65 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="BPC 157 10 mg" data-price="65">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-bpc157">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="TB 500 10 mg" data-card-price="65">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="TB 500 10 mg research vial product image">
+              <img src="assets/products/tb-500-10mg.png" alt="TB 500 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/tb-500-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>TB 500 - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$65 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="TB 500 10 mg" data-price="65">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-tb-500">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="NAD+ 500 mg" data-card-price="70">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo large-vial" aria-label="NAD+ 500 mg research vial product image">
+              <img src="assets/products/nad-plus-500mg.png" alt="NAD+ 500 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/nad-plus-500mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>NAD+ - Laboratory Research Reagent (500 mg)</h3>
+            <p class="price">$70 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="NAD+ 500 mg" data-price="70">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-nad">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="AOD 9604 5 mg" data-card-price="70">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="AOD 9604 5 mg research vial product image">
+              <img src="assets/products/aod-9604-5mg.png" alt="AOD 9604 5 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/aod-9604-5mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>AOD 9604 - Laboratory Research Reagent (5 mg)</h3>
+            <p class="price">$70 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="AOD 9604 5 mg" data-price="70">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-aod-9604">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Sermorelin 10 mg" data-card-price="65">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Sermorelin 10 mg research vial product image">
+              <img src="assets/products/sermorelin-10mg.png" alt="Sermorelin 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/sermorelin-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Sermorelin - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$65 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Sermorelin 10 mg" data-price="65">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-sermorelin">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Tesamorelin 10 mg" data-card-price="100">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Tesamorelin 10 mg research vial product image">
+              <img src="assets/products/tesamorelin-10mg.svg" alt="Tesamorelin 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/tesamorelin-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Tesamorelin - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$100 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Tesamorelin 10 mg" data-price="100">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-tesamorelin">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Tesamorelin 20 mg" data-card-price="200">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Tesamorelin 20 mg research vial product image">
+              <img src="assets/products/tesamorelin-20mg.svg" alt="Tesamorelin 20 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/tesamorelin-20mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Tesamorelin - Laboratory Research Reagent (20 mg)</h3>
+            <p class="price">$200 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Tesamorelin 20 mg" data-price="200">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-tesamorelin-20mg">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Glutathione 600 mg" data-card-price="80">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Glutathione 600 mg research vial product image">
+              <img src="assets/products/glutathione-600mg.svg" alt="Glutathione 600 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/glutathione-600mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Glutathione - Laboratory Research Reagent (600 mg)</h3>
+            <p class="price">$80 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Glutathione 600 mg" data-price="80">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-glutathione">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Epitalon 100 mg" data-card-price="110">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Epitalon 100 mg research vial product image">
+              <img src="assets/products/epitalon-100mg.svg" alt="Epitalon 100 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/epitalon-100mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Epitalon - Laboratory Research Reagent (100 mg)</h3>
+            <p class="price">$110 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Epitalon 100 mg" data-price="110">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-epitalon">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Selank 10 mg" data-card-price="50">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Selank 10 mg research vial product image">
+              <img src="assets/products/selank-10mg.svg" alt="Selank 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/selank-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Selank - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$50 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Selank 10 mg" data-price="50">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-selank">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="SLU-PP-332 5 mg" data-card-price="75">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="SLU-PP-332 5 mg research vial product image">
+              <img src="assets/products/slu-pp-332-5mg.svg" alt="SLU-PP-332 5 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/slu-pp-332-5mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>SLU-PP-332 - Laboratory Research Reagent (5 mg)</h3>
+            <p class="price">$75 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="SLU-PP-332 5 mg" data-price="75">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-slu-pp-332">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="Pinealon 10 mg" data-card-price="60">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="Pinealon 10 mg research vial product image">
+              <img src="assets/products/pinealon-10mg.svg" alt="Pinealon 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/pinealon-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>Pinealon - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$60 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="Pinealon 10 mg" data-price="60">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-pinealon">Full product breakdown</a>
+          </article>
+
+          <article class="product-card" data-card-product="PT-141 10 mg" data-card-price="60">
+            <span class="sale-badge">Available</span>
+            <div class="vial-visual product-photo" aria-label="PT-141 10 mg research vial product image">
+              <img src="assets/products/pt141-10mg.svg" alt="PT-141 10 mg Pure Research Peptide Lab vial with white powder" />
+            </div>
+            <a class="fresh-coa" href="coa/pt141-10mg.html" target="_blank" rel="noopener">Fresh COA</a>
+            <h3>PT-141 - Laboratory Research Reagent (10 mg)</h3>
+            <p class="price">$60 CAD</p>
+            <p class="product-summary">Supplied as lyophilized material for non-clinical laboratory research.</p>
+            <div class="product-actions">
+              <label class="quantity-label">Vials <input type="number" min="1" max="99" value="1" data-qty /></label>
+              <button class="cart-button" type="button" data-add-product="PT-141 10 mg" data-price="60">Add to Cart</button>
+            </div>
+            <a class="detail-link" href="#details-pt141">Full product breakdown</a>
+          </article>
+        </div>
+
+        <aside class="cart-panel" id="cartPanel">
+          <div>
+            <p class="eyebrow">Research inquiry cart</p>
+            <h3>Selected materials</h3>
+            <p class="cart-note">Estimated catalog pricing only. Final availability and documentation are confirmed by inquiry.</p>
+          </div>
+          <div id="cartItems" class="cart-items">
+            <p class="empty-cart">No materials selected yet.</p>
+          </div>
+          <div class="cart-total">
+            <span>Estimated total</span>
+            <strong id="cartTotal">$0 CAD</strong>
+          </div>
+          <a class="button primary" href="#inquiry" id="cartInquiryLink">Continue to inquiry</a>
+        </aside>
+      </section>
+
+      <section class="section coa-section" id="coa">
+        <div class="section-head">
+          <p class="eyebrow">Certificate of Analysis</p>
+          <h2>COA links are ready for final lab reports.</h2>
+          <p>
+            These buttons currently open product-specific COA placeholders. When the lab sends the real reports,
+            the files can be replaced with the actual COAs without changing the shopping flow.
+          </p>
+        </div>
+        <div class="coa-grid">
+          <a href="coa/retatrutide-10mg.pdf" target="_blank" rel="noopener">Retatrutide 10 mg COA</a>
+          <a href="coa/retatrutide-20mg.html" target="_blank" rel="noopener">Retatrutide 20 mg COA</a>
+          <a href="coa/5-amino-1mq-10mg.html" target="_blank" rel="noopener">5-Amino-1MQ 10 mg COA</a>
+          <a href="coa/5-amino-1mq-50mg.html" target="_blank" rel="noopener">5-Amino-1MQ 50 mg COA</a>
+          <a href="coa/mots-c-10mg.pdf" target="_blank" rel="noopener">Mots-C 10 mg COA</a>
+          <a href="coa/mots-c-30mg.html" target="_blank" rel="noopener">Mots-C 30 mg COA</a>
+          <a href="coa/mots-c-40mg.html" target="_blank" rel="noopener">Mots-C 40 mg COA</a>
+          <a href="coa/ss31-10mg.pdf" target="_blank" rel="noopener">SS-31 10 mg COA</a>
+          <a href="coa/bpc157-10mg.pdf" target="_blank" rel="noopener">BPC 157 10 mg COA</a>
+          <a href="coa/tb-500-10mg.html" target="_blank" rel="noopener">TB 500 10 mg COA</a>
+          <a href="coa/nad-plus-500mg.html" target="_blank" rel="noopener">NAD+ 500 mg COA</a>
+          <a href="coa/aod-9604-5mg.html" target="_blank" rel="noopener">AOD 9604 5 mg COA</a>
+          <a href="coa/sermorelin-10mg.html" target="_blank" rel="noopener">Sermorelin 10 mg COA</a>
+          <a href="coa/tesamorelin-10mg.html" target="_blank" rel="noopener">Tesamorelin 10 mg COA</a>
+          <a href="coa/tesamorelin-20mg.html" target="_blank" rel="noopener">Tesamorelin 20 mg COA</a>
+          <a href="coa/glutathione-600mg.html" target="_blank" rel="noopener">Glutathione 600 mg COA</a>
+          <a href="coa/epitalon-100mg.html" target="_blank" rel="noopener">Epitalon 100 mg COA</a>
+          <a href="coa/selank-10mg.html" target="_blank" rel="noopener">Selank 10 mg COA</a>
+          <a href="coa/slu-pp-332-5mg.html" target="_blank" rel="noopener">SLU-PP-332 5 mg COA</a>
+          <a href="coa/pinealon-10mg.html" target="_blank" rel="noopener">Pinealon 10 mg COA</a>
+          <a href="coa/pt141-10mg.html" target="_blank" rel="noopener">PT-141 10 mg COA</a>
+        </div>
+      </section>
+
+      <section class="section details-section" id="details">
+        <div class="section-head">
+          <p class="eyebrow">Product breakdown</p>
+          <h2>Full research-only product details.</h2>
+        </div>
+
+        <article class="detail-card" id="details-retatrutide">
+          <div>
+            <p class="eyebrow">Retatrutide 10 mg</p>
+            <h3>Retatrutide - Laboratory Research Reagent (10 mg)</h3>
+            <p>Retatrutide is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/retatrutide-10mg.pdf" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-retatrutide-20mg">
+          <div>
+            <p class="eyebrow">Retatrutide 20 mg</p>
+            <h3>Retatrutide - Laboratory Research Reagent (20 mg)</h3>
+            <p>Retatrutide is supplied as 20 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 20 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/retatrutide-20mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-5-amino-1mq">
+          <div>
+            <p class="eyebrow">5-Amino-1MQ 10 mg</p>
+            <h3>5-Amino-1MQ - Laboratory Research Reagent (10 mg)</h3>
+            <p>5-Amino-1MQ is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/5-amino-1mq-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-5-amino-1mq-50mg">
+          <div>
+            <p class="eyebrow">5-Amino-1MQ 50 mg</p>
+            <h3>5-Amino-1MQ - Laboratory Research Reagent (50 mg)</h3>
+            <p>5-Amino-1MQ is supplied as 50 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 50 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/5-amino-1mq-50mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-mots-c">
+          <div>
+            <p class="eyebrow">Mots-C 10 mg</p>
+            <h3>Mots-C - Laboratory Research Reagent (10 mg)</h3>
+            <p>Mots-C is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/mots-c-10mg.pdf" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-mots-c-30mg">
+          <div>
+            <p class="eyebrow">Mots-C 30 mg</p>
+            <h3>Mots-C - Laboratory Research Reagent (30 mg)</h3>
+            <p>Mots-C is supplied as 30 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 30 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/mots-c-30mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-mots-c-40mg">
+          <div>
+            <p class="eyebrow">Mots-C 40 mg</p>
+            <h3>Mots-C - Laboratory Research Reagent (40 mg)</h3>
+            <p>Mots-C is supplied as 40 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 40 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/mots-c-40mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-ss31">
+          <div>
+            <p class="eyebrow">SS-31 10 mg</p>
+            <h3>SS-31 - Laboratory Research Reagent (10 mg)</h3>
+            <p>SS-31 is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/ss31-10mg.pdf" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-bpc157">
+          <div>
+            <p class="eyebrow">BPC 157 10 mg</p>
+            <h3>BPC 157 - Laboratory Research Reagent (10 mg)</h3>
+            <p>BPC 157 is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/bpc157-10mg.pdf" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-tb-500">
+          <div>
+            <p class="eyebrow">TB 500 10 mg</p>
+            <h3>TB 500 - Laboratory Research Reagent (10 mg)</h3>
+            <p>TB 500 is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/tb-500-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-nad">
+          <div>
+            <p class="eyebrow">NAD+ 500 mg</p>
+            <h3>NAD+ - Laboratory Research Reagent (500 mg)</h3>
+            <p>NAD+ is supplied as 500 mg lyophilized material in a larger 10 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 500 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> Larger 10 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/nad-plus-500mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-aod-9604">
+          <div>
+            <p class="eyebrow">AOD 9604 5 mg</p>
+            <h3>AOD 9604 - Laboratory Research Reagent (5 mg)</h3>
+            <p>AOD 9604 is supplied as 5 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 5 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/aod-9604-5mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-sermorelin">
+          <div>
+            <p class="eyebrow">Sermorelin 10 mg</p>
+            <h3>Sermorelin - Laboratory Research Reagent (10 mg)</h3>
+            <p>Sermorelin is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/sermorelin-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-tesamorelin">
+          <div>
+            <p class="eyebrow">Tesamorelin 10 mg</p>
+            <h3>Tesamorelin - Laboratory Research Reagent (10 mg)</h3>
+            <p>Tesamorelin is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/tesamorelin-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-tesamorelin-20mg">
+          <div>
+            <p class="eyebrow">Tesamorelin 20 mg</p>
+            <h3>Tesamorelin - Laboratory Research Reagent (20 mg)</h3>
+            <p>Tesamorelin is supplied as 20 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 20 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/tesamorelin-20mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-glutathione">
+          <div>
+            <p class="eyebrow">Glutathione 600 mg</p>
+            <h3>Glutathione - Laboratory Research Reagent (600 mg)</h3>
+            <p>Glutathione is supplied as 600 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 600 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/glutathione-600mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-epitalon">
+          <div>
+            <p class="eyebrow">Epitalon 100 mg</p>
+            <h3>Epitalon - Laboratory Research Reagent (100 mg)</h3>
+            <p>Epitalon is supplied as 100 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 100 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/epitalon-100mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-selank">
+          <div>
+            <p class="eyebrow">Selank 10 mg</p>
+            <h3>Selank - Laboratory Research Reagent (10 mg)</h3>
+            <p>Selank is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/selank-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-slu-pp-332">
+          <div>
+            <p class="eyebrow">SLU-PP-332 5 mg</p>
+            <h3>SLU-PP-332 - Laboratory Research Reagent (5 mg)</h3>
+            <p>SLU-PP-332 is supplied as 5 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 5 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/slu-pp-332-5mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-pinealon">
+          <div>
+            <p class="eyebrow">Pinealon 10 mg</p>
+            <h3>Pinealon - Laboratory Research Reagent (10 mg)</h3>
+            <p>Pinealon is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/pinealon-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+
+        <article class="detail-card" id="details-pt141">
+          <div>
+            <p class="eyebrow">PT-141 10 mg</p>
+            <h3>PT-141 - Laboratory Research Reagent (10 mg)</h3>
+            <p>PT-141 is supplied as 10 mg lyophilized material in a 3 mL glass vial for non-clinical laboratory research.</p>
+          </div>
+          <div>
+            <h4>Product details</h4>
+            <ul>
+              <li><strong>Net content:</strong> 10 mg per vial</li>
+              <li><strong>Format:</strong> Lyophilized material</li>
+              <li><strong>Container:</strong> 3 mL glass vial</li>
+              <li><strong>Lot/batch:</strong> Recorded on product label where available</li>
+            </ul>
+            <h4>Intended use</h4>
+            <ul>
+              <li>Non-clinical laboratory research</li>
+              <li>Analytical reference and assay development within qualified programs</li>
+              <li>Use only with institutional SOPs and applicable regulatory requirements</li>
+              <li><strong>Not for human consumption or human use</strong></li>
+              <li><strong>Not for clinical, therapeutic, diagnostic, food, or cosmetic use</strong></li>
+            </ul>
+            <a class="report-link" href="coa/pt141-10mg.html" target="_blank" rel="noopener">View full COA report</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section compliance" id="compliance">
+        <div>
+          <p class="eyebrow">Compliance posture</p>
+          <h2>Research-only boundaries stay visible.</h2>
+        </div>
+        <ul>
+          <li>Not for human consumption or human use.</li>
+          <li>Product names and amounts are catalog identifiers only, not usage instructions.</li>
+          <li>No treatment, diagnostic, cure, prevention, performance, wellness, or cosmetic claims.</li>
+          <li>No dosage, cycle, injection, administration, or protocol guidance.</li>
+          <li>Purchasers must be 21+ and responsible for compliance with applicable laws.</li>
+        </ul>
+      </section>
+
+      <section class="section inquiry" id="inquiry">
+        <div class="section-head">
+          <p class="eyebrow">Controlled inquiry</p>
+          <h2>Contact Pure Research Peptide Lab.</h2>
+          <p>
+            For research-only product questions, documentation, or order support, email
+            <a href="mailto:info@pureresearchpeptidelab.com">info@pureresearchpeptidelab.com</a>.
+          </p>
+        </div>
+        <form id="inquiryForm" name="order-inquiry" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="order-inquiry" />
+          <label class="bot-field">Do not fill this out <input name="bot-field" /></label>
+          <label>Name <input name="name" type="text" autocomplete="name" required /></label>
+          <label>Email <input name="email" type="email" autocomplete="email" required /></label>
+          <label>Research organization <input name="research_organization" type="text" /></label>
+          <fieldset class="checkout-choice">
+            <legend>Checkout preference</legend>
+            <label class="choice-option">
+              <input type="radio" name="checkout_preference" value="guest" checked />
+              <span>
+                <strong>Checkout as guest</strong>
+                <small>Use this email for this order only.</small>
+              </span>
+            </label>
+            <label class="choice-option">
+              <input type="radio" name="checkout_preference" value="account" />
+              <span>
+                <strong>Request account setup</strong>
+                <small>We will send a secure setup link after order approval.</small>
+              </span>
+            </label>
+          </fieldset>
+          <div class="account-fields" id="accountFields" hidden aria-live="polite">
+            <p>
+              No password is collected on this inquiry form. If the order is approved, a secure account setup
+              link can be sent to the email above.
+            </p>
+          </div>
+          <label>
+            Product of interest
+            <select id="productInterest" name="product_interest">
+              <option value="">Select a material</option>
+              <option>Retatrutide 10 mg</option>
+              <option>Retatrutide 20 mg</option>
+              <option>5-Amino-1MQ 10 mg</option>
+              <option>5-Amino-1MQ 50 mg</option>
+              <option>Mots-C 10 mg</option>
+              <option>Mots-C 30 mg</option>
+              <option>Mots-C 40 mg</option>
+              <option>SS-31 10 mg</option>
+              <option>BPC 157 10 mg</option>
+              <option>TB 500 10 mg</option>
+              <option>NAD+ 500 mg</option>
+              <option>AOD 9604 5 mg</option>
+              <option>Sermorelin 10 mg</option>
+              <option>Tesamorelin 10 mg</option>
+              <option>Tesamorelin 20 mg</option>
+              <option>Glutathione 600 mg</option>
+              <option>Epitalon 100 mg</option>
+              <option>Selank 10 mg</option>
+              <option>SLU-PP-332 5 mg</option>
+              <option>Pinealon 10 mg</option>
+              <option>PT-141 10 mg</option>
+              <option>General documentation request</option>
+            </select>
+          </label>
+          <label>Inquiry <textarea name="inquiry" rows="5" required></textarea></label>
+          <label>Selected materials <textarea name="selected_materials" id="cartSummary" rows="4" readonly placeholder="Add materials from the catalog above."></textarea></label>
+          <label>Discount code <input id="discountCode" name="coupon_code" type="text" autocomplete="off" placeholder="Free30" /></label>
+          <input id="estimatedSubtotal" name="estimated_subtotal" type="hidden" />
+          <input id="estimatedDiscount" name="estimated_discount" type="hidden" />
+          <input id="estimatedTotal" name="estimated_total" type="hidden" />
+          <p class="form-note" id="discountStatus" aria-live="polite">
+            Use code Free30 for 30% off eligible order inquiries.
+          </p>
+          <label class="check">
+            <input name="research_only_acknowledgement" type="checkbox" required />
+            I confirm I am 21+ and understand these materials are for research use only, not for human use.
+          </label>
+          <label class="check">
+            <input name="no_human_use_guidance_acknowledgement" type="checkbox" required />
+            I understand no instructions for human use, dosing, administration, or protocols will be provided.
+          </label>
+          <button type="submit">Submit Inquiry</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="section-head">
+          <p class="eyebrow">Customer feedback</p>
+          <h2>Leave a review.</h2>
+          <p>
+            Reviews are checked before publication. Eligible approved reviews can receive a coupon code by
+            email for a future order inquiry.
+          </p>
+        </div>
+        <div class="review-layout">
+          <div class="review-policy">
+            <h3>Review coupon workflow</h3>
+            <ul>
+              <li>Submit a review using the same email used for your order inquiry.</li>
+              <li>Reviews are manually approved before they appear publicly.</li>
+              <li>Approved eligible reviews can receive a coupon code by email.</li>
+              <li>Coupon codes are entered in the inquiry checkout area above.</li>
+            </ul>
+          </div>
+          <form id="reviewForm" name="customer-review" method="POST" action="/review-thanks.html" data-netlify="true" netlify-honeypot="review-bot-field">
+            <input type="hidden" name="form-name" value="customer-review" />
+            <label class="bot-field">Do not fill this out <input name="review-bot-field" /></label>
+            <label>Name <input name="review_name" type="text" autocomplete="name" required /></label>
+            <label>Email <input name="review_email" type="email" autocomplete="email" required /></label>
+            <label>Order or inquiry reference <input name="order_reference" type="text" placeholder="Optional" /></label>
+            <label>
+              Rating
+              <select name="rating" required>
+                <option value="">Select a rating</option>
+                <option>5 stars</option>
+                <option>4 stars</option>
+                <option>3 stars</option>
+                <option>2 stars</option>
+                <option>1 star</option>
+              </select>
+            </label>
+            <label>Review title <input name="review_title" type="text" required /></label>
+            <label>Review <textarea name="review_body" rows="5" required></textarea></label>
+            <label class="check">
+              <input name="review_coupon_request" type="checkbox" />
+              I would like to be considered for a coupon code if this review is approved.
+            </label>
+            <label class="check">
+              <input name="review_publish_acknowledgement" type="checkbox" required />
+              I understand this review may be checked before publication and may be displayed without private order details.
+            </label>
+            <button type="submit">Submit Review</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/prpl-logo-mark.svg" alt="" />
+      <p>
+        Pure Research Peptide Lab materials are offered for laboratory research use only. Products are not for
+        human consumption, diagnostic use, therapeutic use, food use, cosmetic use, or resale to consumers.
+        Contact <a href="mailto:info@pureresearchpeptidelab.com">info@pureresearchpeptidelab.com</a>.
+        <a href="terms.html">Terms & Conditions</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

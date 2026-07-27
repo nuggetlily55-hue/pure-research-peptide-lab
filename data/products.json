@@ -1,0 +1,318 @@
+[
+  {
+    "id": "retatrutide-10mg",
+    "name": "Retatrutide",
+    "amount": "10 mg",
+    "priceCad": 95,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/retatrutide-10mg.pdf",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "retatrutide-20mg",
+    "name": "Retatrutide",
+    "amount": "20 mg",
+    "priceCad": 120,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/retatrutide-20mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "5-amino-1mq-10mg",
+    "name": "5-Amino-1MQ",
+    "amount": "10 mg",
+    "priceCad": 60,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/5-amino-1mq-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "5-amino-1mq-50mg",
+    "name": "5-Amino-1MQ",
+    "amount": "50 mg",
+    "priceCad": 175,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/5-amino-1mq-50mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "mots-c-10mg",
+    "name": "Mots-C",
+    "amount": "10 mg",
+    "priceCad": 60,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/mots-c-10mg.pdf",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "mots-c-30mg",
+    "name": "Mots-C",
+    "amount": "30 mg",
+    "priceCad": 175,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/mots-c-30mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "mots-c-40mg",
+    "name": "Mots-C",
+    "amount": "40 mg",
+    "priceCad": 200,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/mots-c-40mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "ss31-10mg",
+    "name": "SS-31",
+    "amount": "10 mg",
+    "priceCad": 70,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/ss31-10mg.pdf",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "bpc157-10mg",
+    "name": "BPC 157",
+    "amount": "10 mg",
+    "priceCad": 65,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/bpc157-10mg.pdf",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "tb-500-10mg",
+    "name": "TB 500",
+    "amount": "10 mg",
+    "priceCad": 65,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/tb-500-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "nad-plus-500mg",
+    "name": "NAD+",
+    "amount": "500 mg",
+    "priceCad": 70,
+    "format": "Research material",
+    "status": "Current batch",
+    "container": "10 mL glass vial",
+    "coaUrl": "coa/nad-plus-500mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "aod-9604-5mg",
+    "name": "AOD 9604",
+    "amount": "5 mg",
+    "priceCad": 70,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/aod-9604-5mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "sermorelin-10mg",
+    "name": "Sermorelin",
+    "amount": "10 mg",
+    "priceCad": 65,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/sermorelin-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "tesamorelin-10mg",
+    "name": "Tesamorelin",
+    "amount": "10 mg",
+    "priceCad": 100,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/tesamorelin-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "tesamorelin-20mg",
+    "name": "Tesamorelin",
+    "amount": "20 mg",
+    "priceCad": 200,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/tesamorelin-20mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "glutathione-600mg",
+    "name": "Glutathione",
+    "amount": "600 mg",
+    "priceCad": 80,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/glutathione-600mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "epitalon-100mg",
+    "name": "Epitalon",
+    "amount": "100 mg",
+    "priceCad": 110,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/epitalon-100mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "selank-10mg",
+    "name": "Selank",
+    "amount": "10 mg",
+    "priceCad": 50,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/selank-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "slu-pp-332-5mg",
+    "name": "SLU-PP-332",
+    "amount": "5 mg",
+    "priceCad": 75,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/slu-pp-332-5mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "pinealon-10mg",
+    "name": "Pinealon",
+    "amount": "10 mg",
+    "priceCad": 60,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/pinealon-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  },
+  {
+    "id": "pt141-10mg",
+    "name": "PT-141",
+    "amount": "10 mg",
+    "priceCad": 60,
+    "format": "Research material",
+    "status": "Current batch",
+    "coaUrl": "coa/pt141-10mg.html",
+    "documentation": [
+      "Batch ID",
+      "COA placeholder",
+      "Purity report placeholder",
+      "Chain-of-custody placeholder"
+    ]
+  }
+]

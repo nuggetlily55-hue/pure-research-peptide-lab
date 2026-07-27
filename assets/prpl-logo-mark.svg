@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pure Research Peptide Lab logo mark</title>
+  <desc id="desc">A circular molecular research mark with PRPL initials.</desc>
+  <rect width="512" height="512" rx="112" fill="#071824"/>
+  <circle cx="256" cy="256" r="178" fill="#0B2433" stroke="#41D6C3" stroke-width="10"/>
+  <circle cx="256" cy="256" r="128" fill="#102F43" stroke="#D7F8F4" stroke-opacity=".22" stroke-width="3"/>
+  <path d="M168 308C206 241 243 207 298 177" stroke="#41D6C3" stroke-width="12" stroke-linecap="round"/>
+  <path d="M204 177C238 217 283 260 344 310" stroke="#8BE7DD" stroke-width="8" stroke-linecap="round" stroke-opacity=".8"/>
+  <circle cx="168" cy="308" r="24" fill="#F7FBFF" stroke="#41D6C3" stroke-width="8"/>
+  <circle cx="204" cy="177" r="18" fill="#41D6C3"/>
+  <circle cx="298" cy="177" r="24" fill="#F7FBFF" stroke="#41D6C3" stroke-width="8"/>
+  <circle cx="344" cy="310" r="18" fill="#41D6C3"/>
+  <text x="256" y="283" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="#F7FBFF">PR</text>
+  <text x="256" y="334" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="4" fill="#8BE7DD">LAB</text>
+</svg>

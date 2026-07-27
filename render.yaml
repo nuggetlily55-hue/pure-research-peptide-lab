@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: pure-research-peptide-lab
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    domains:
+      - pureresearchpeptidelab.com
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
